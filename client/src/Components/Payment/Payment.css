@@ -1,0 +1,16 @@
+.bookingdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultsdiv1 {
+    /* background-color: azure; */
+    height: 245px;
+    width: 40%;
+    text-align: left;
+    /* box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 30%); */
+    margin-top: 10px;
+    display: flex;
+}

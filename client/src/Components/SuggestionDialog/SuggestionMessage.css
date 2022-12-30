@@ -1,0 +1,111 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.loginHeading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    background: none;
+    margin: 0.9rem 2rem;
+    font-size: 1rem;
+  }
+
+  .registerInput{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    background: none;
+    margin: 0.9rem 2rem;
+    font-size: 1rem;
+  }
+  
+  label {
+    margin: 0 2rem;
+  }
+  
+  .loginSpan {
+    margin: 0 2rem;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .loginButtons {
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #fff;
+    
+  }
+
+  .errormessage{
+    color: rgb(175, 32, 32);
+  }
+
+  /**/
+
+  .container form .user__details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+   inside the form user details 
+  form .user__details .input__box {
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+  }
+
+  .registerLink{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+
+  .registerForm{
+    margin: auto;
+    width: 60%;
+    padding: 13px;
+    display: flex;
+    /* justify-content: center; */
+       flex-direction: column;
+  }
+  /*
+  .user__details .input__box .details {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .user__details .input__box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--main-grey);
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .user__details .input__box input:focus,
+  .user__details .input__box input:valid {
+    border-color: var(--main-purple);
+  }
+  */

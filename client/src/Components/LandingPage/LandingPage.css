@@ -1,0 +1,69 @@
+/* .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+} */
+
+.booking-form {
+	max-width: 1050px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.tagLine_sec{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.tagLine_sec_heading{
+	display: block;
+	font-size: 35px;
+    color: rgb(211, 58, 58);
+    font-weight: 500;
+}
+
+.tagLine_sec_statement{
+	font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-header {
+	text-align: center;
+	margin-bottom: 25px;
+    font-size: 45px;
+	color: rgb(5, 5, 5);
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+
+.booking-form .booking {
+    background-color: #1e1e1e;
+	padding: 40px;
+	box-shadow: 0px 5px 15px -5px rgba(39, 39, 39, 0.8);
+}
+
+.form-label {
+    color: #fff;
+}
+
+.booking-form .submit-btn {
+    color: #fff;
+    background-color: #bb2722;
+    font-weight: 400;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    width: 100%;
+    display: block;
+}
+
+.form-btn {
+    padding-top: 10px;
+}
